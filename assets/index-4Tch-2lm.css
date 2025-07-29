@@ -12,8 +12,6 @@
   --vt-c-divider-dark-2: rgba(84, 84, 84, .48);
   --vt-c-text-light-1: var(--vt-c-indigo);
   --vt-c-text-light-2: rgba(60, 60, 60, .66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, .64)
 }
 
 :root {
@@ -49,7 +47,7 @@
 
 body {
   min-height: 100vh;
-  color: var(--color-text);
+  color: #333;
   background: var(--color-background);
   transition: color .5s, background-color .5s;
   line-height: 1.6;
